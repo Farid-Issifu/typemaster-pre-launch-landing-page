@@ -225,11 +225,87 @@ img{
     margin-bottom: 50px;
 }
 
-@media only screen and (min-device-width: 768px){
+
+
+@media only screen and (max-device-width: 1220px)
+{
+
     .header{
-        min-width: 100%;
+        min-width: 90%;
         margin: 50px 50px;
-        
+    }
+
+    .container{
+        min-width:  100%;
+        margin: 50px 50px;
+    }
+
+    .desc-img::after{
+        content: none;
+    }
+
+    .keyboard-left::before{
+        content: none;
+    }
+
+    .keyboard-images{
+        min-width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .keyboard-left{
+        width: 40%;
+    }
+    .keyboard-right{
+        width: 60%;
+        margin-left: 100px;
+        margin-right: 0px;
+    }
+
+    .mech{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mech-text{
+        flex-direction: row;
+    }
+
+    .mech-text h1{
+        font-size: 40px;
+        width: 30%;
+        margin-right: 120px;
+    }
+
+    .mech-text p{
+        /* font-size: 40px; */
+        width: 40%;
+    }
+}
+
+@media only screen and (max-device-width: 1000px)
+{
+    .feat{
+        flex-wrap: wrap;
+        min-width: 80%;
+    }
+    .features{
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media only screen and (max-device-width: 875px)
+{
+    .features{
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-device-width: 768px){
+    .header{
+        margin: 50px 50px;
     }
 
     .desc-img::after{
@@ -241,7 +317,48 @@ img{
         margin: 50px 50px;
     }
 
-    
+    .keyboard-left::before{
+        content: none;
+    }
+
+    .mech{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .keyboard-images{
+        max-width: 90%;
+    }
+
+    .keyboard-left{
+        height: 350px;
+        width: 30%;
+    }
+
+    .keyboard-right{
+        margin-left: 30px;
+        width: 70%;
+        height: 350px;
+    }
+
+    .mech-text h1{
+        font-size: 30px;
+        width: 30%;
+        margin-right: 50px;
+    }
+
+    .mech-text p{
+        width: 50%;
+        font-size: 17px;
+    }
+
+    .feat{
+        min-width: 85%;
+    }
+
+    .features{
+        margin: 15px;
+    }
 }
 
 
