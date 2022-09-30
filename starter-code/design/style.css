@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 3.4% auto 3.1% auto;
+    text-align: center;
+}
+
+.logo{
+    height: 4.5%;
+    width: 4.5%;
+}
+
+.btn{
+    text-align: center;
+    background-color: #E8EFF2;
+    color: #162542;
+    border-radius: 8px;
+    text-transform: uppercase;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pre-order-ash:hover{
+    background-color: #162441;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0 auto;
+    max-width: 70vw;
+    justify-content: space-between;
+}
+
+.description{
+    max-width: 50%;
+    margin: auto 25px auto 0;
+}
+
+.title-text h1{
+    font-size: 120px;
+    font-weight: 900;
+    color: #162441;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.detail-text{
+    font-weight: 300;
+    color: #7b8bad;
+    margin: 0 0 70px 0;
+    font-size: 45px;
+}
+.bottom{
+    display: flex;
+}
+
+.pre-order-orange{
+    background-color: #F16718;
+    color: white;
+    margin-right: 60px;
+}
+
+.pre-order-orange:hover{
+    background-color: #FF9B62;
+}
+
+.release-text{
+    font-size: 35px;
+    font-weight: 500;
+    color: #7b8bad;
+    margin: auto 0;
+    text-transform: uppercase;
+}
+
+.desc-img{
+    background-image: url(../assets/desktop/image-keyboard.jpg);
+    width: 900px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.9375rem;
+    margin-bottom: 1.5rem;
+}
+
+.desc-img::after{
+    content: " ";
+    position: absolute;
+    background-image: url(../assets/shared/pattern-square.svg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    right: -5px;
+}
+
