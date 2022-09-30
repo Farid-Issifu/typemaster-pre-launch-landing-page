@@ -258,7 +258,7 @@ img{
     }
     .keyboard-right{
         width: 60%;
-        margin-left: 100px;
+        margin-left: 50px;
         margin-right: 0px;
     }
 
@@ -294,6 +294,10 @@ img{
         margin-bottom: 50px;
     }
 
+    .keyboard-right{
+        margin-left: 20px;
+    }
+
 }
 
 @media only screen and (max-device-width: 875px)
@@ -304,62 +308,7 @@ img{
 }
 
 @media only screen and (max-device-width: 768px){
-    .header{
-        margin: 50px 50px;
-    }
-
-    .desc-img::after{
-        content: none;
-    }
-
-    .container{
-        min-width:  100%;
-        margin: 50px 50px;
-    }
-
-    .keyboard-left::before{
-        content: none;
-    }
-
-    .mech{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .keyboard-images{
-        max-width: 90%;
-    }
-
-    .keyboard-left{
-        height: 350px;
-        width: 30%;
-    }
-
-    .keyboard-right{
-        margin-left: 30px;
-        width: 70%;
-        height: 350px;
-    }
-
-    .mech-text h1{
-        font-size: 30px;
-        width: 30%;
-        margin-right: 50px;
-    }
-
-    .mech-text p{
-        width: 50%;
-        font-size: 17px;
-    }
-
-    .feat{
-        min-width: 85%;
-    }
-
-    .features{
-        margin: 15px;
-    }
+    
 }
-
 
 
