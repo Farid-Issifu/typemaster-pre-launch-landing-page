@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
     background-color: white;
-    overflow: hidden;
 }
 
 img{
@@ -14,7 +13,7 @@ img{
 .header{
     display: flex;
     justify-content: space-between;
-    max-width: 70vw;
+    max-width: 75vw;
     margin: 3.4% auto 3.1% auto;
     text-align: center;
 }
@@ -47,13 +46,13 @@ img{
     display: flex;
     flex-direction: row;
     margin: 0 auto 0 auto;
-    max-width: 70vw;
+    max-width: 75vw;
     justify-content: space-between;
 }
 
 .description{
-    max-width: 50%;
-    margin: auto 25px auto 0;
+    max-width: 45%;
+    margin: auto 50px auto 0;
 }
 
 .title-text h1{
@@ -69,7 +68,7 @@ img{
     font-weight: 300;
     color: #7b8bad;
     margin: 0 0 70px 0;
-    font-size: 45px;
+    font-size: 40px;
 }
 .bottom{
     display: flex;
@@ -95,12 +94,12 @@ img{
 
 .desc-img{
     background-image: url(../assets/desktop/image-keyboard.jpg);
-    width: 900px;
-    height: 800px;
+    width: 1080px;
+    height: 960px;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0.9375rem;
-    margin-bottom: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 50px;
 }
 
 .desc-img::after{
@@ -114,4 +113,96 @@ img{
     border-radius: 5px;
     right: -5px;
 }
+
+.mech{
+    justify-content: normal ;
+    margin-bottom: 150px;
+}
+
+.keyboard-images{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+}
+
+.keyboard-left::before{
+    content: " ";
+    position: absolute;
+    background-image: url(../assets/shared/pattern-square.svg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    left: -5px;
+    margin-top: 660px;
+}
+
+.keyboard-left{
+    background-image: url(../assets/desktop/image-phone-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #F16718;
+    width: 510px;
+    height: 960px;
+    border-radius: 15px;
+}
+
+.keyboard-right{
+    background-image: url(../assets/desktop/image-glass-and-keyboard.jpg);
+    width: 887px;
+    height: 960px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 80px 0 80px;
+}
+.mech-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto 20px;
+   
+}
+.mech-text h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #162441;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.mech-text p{
+    width: 600px;
+    font-weight: 300;
+    color: #7b8bad;
+    font-size: 40px;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img_container{
+    width: 320px;
+    height: 320px;
+    background-color: #F16718;
+    border-radius: 15px;
+    display: flex;
+}
+
+.feat_imgs{
+    margin: auto auto;
+    width: 200px;
+    height: 200px;
+}
+
+
+
 
