@@ -5,6 +5,10 @@
     font-family: 'Barlow', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+  }
+
 img{
     max-width: 100%;
 }
@@ -225,6 +229,10 @@ img{
     margin-bottom: 50px;
 }
 
+.footer span{
+   font-weight: bold;
+}
+
 
 
 @media only screen and (max-device-width: 1220px)
@@ -332,5 +340,6 @@ img{
         margin-bottom: 20px;
     }
 }
+
 
 
