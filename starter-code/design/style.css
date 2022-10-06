@@ -5,10 +5,6 @@
     font-family: 'Barlow', sans-serif;
 }
 
-body {
-    overflow-x: hidden;
-  }
-
 img{
     max-width: 100%;
 }
@@ -229,15 +225,10 @@ img{
     margin-bottom: 50px;
 }
 
-.footer span{
-   font-weight: bold;
-}
-
 
 
 @media only screen and (max-device-width: 1220px)
 {
-
     .header{
         min-width: 90%;
         margin: 50px 50px;
@@ -286,7 +277,6 @@ img{
     }
 
     .mech-text p{
-        /* font-size: 40px; */
         width: 40%;
     }
 }
@@ -315,9 +305,31 @@ img{
     }
 }
 
-@media only screen and (max-device-width: 768px){
-    
+@media only screen and (max-device-width: 710px){
+    .keyboard_one{
+        flex-direction: column;
+        width: 370px;
+        min-width: 0;
+        margin: 20px auto;
+    }
+
+    .header{
+        width: 370px;
+        min-width: 0;
+        margin: 20px auto;
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+
+    .detail-text{
+        width: 320px;
+    }
+
+    .bottom{
+        width: 320px;
+        margin-bottom: 20px;
+    }
 }
-
-
 
