@@ -233,6 +233,9 @@ img{
 
 @media only screen and (max-device-width: 1220px)
 {
+    body{
+        overflow-x: hidden;
+    }
     .header{
         min-width: 90%;
         margin: 50px 50px;
@@ -334,6 +337,114 @@ img{
     .bottom{
         width: 320px;
         margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-device-width: 427px){
+    .header{
+        margin: 25px auto 25px auto;
+        width: 85%;
+        min-width: unset;
+        max-width: unset;
+        display: flex;
+       justify-content: space-between;
+    }
+
+    .logo{
+        width: 45px;
+        height: 45px;
+    }
+
+    .keyboard_one{
+        margin: 0;
+        width: unset;
+        min-width: unset;
+        max-width: 85vw;
+        margin: 0 auto;
+    }
+
+    .description{
+        max-width: unset;
+        margin: 0;
+    }
+
+    .title-text h1{
+        font-size: 3.1rem;
+        margin: 40px 0 20px 0;
+    }
+
+    .detail-text{
+        margin-bottom: 30px;
+    }
+
+    .pre-order-orange{
+        margin-right: 20px;
+        width: 150px;
+    }
+
+    .release-text{
+        font-size: 15px;
+    }
+
+    .desc-img{
+        height: 400px;
+        width: 109%;
+        margin-top: 40px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .mech{
+        margin: 0;
+    }
+    .keyboard-images{
+        min-width: unset;
+        max-width: unset;
+        margin-right: 24px;
+    }
+
+    .keyboard-left, .keyboard-right{
+        
+        height: 250px;
+        background-size: cover;
+    }
+
+    .keyboard-left{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 35%;
+    }
+
+    .mech-text{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .mech-text h1, p{
+        margin: 0 auto 30px;
+        width: 70%;
+        text-align: center;
+    }
+    .mech-text p{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .feat{
+        margin: 50px auto;
+    }
+
+    .features{
+        text-align: center;
+        width: 100%;
+    }
+
+    .img_container,  .container_title{
+        margin: 0 auto 30px;
+    }
+
+    .feature_text p{
+        width: 100%;
     }
 }
 
