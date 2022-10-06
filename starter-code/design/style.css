@@ -225,6 +225,10 @@ img{
     margin-bottom: 50px;
 }
 
+.footer span{
+    font-weight: bold;
+}
+
 
 
 @media only screen and (max-device-width: 1220px)
