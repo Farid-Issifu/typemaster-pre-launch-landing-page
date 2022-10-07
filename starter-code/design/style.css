@@ -215,6 +215,10 @@ img{
     width: 180px;
 }
 
+.container_title h1{
+    font-weight: 900;
+}
+
 .feature_text, .footer{
     font-weight: 400;
     color: #7b8bad;
@@ -303,6 +307,15 @@ img{
         margin-left: 20px;
     }
 
+    .pre-order-orange{
+        margin-right: 30px;
+    }
+
+    .release-text{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
 }
 
 @media only screen and (max-device-width: 875px)
@@ -380,6 +393,7 @@ img{
     .pre-order-orange{
         margin-right: 20px;
         width: 150px;
+        font-size: 0.7rem;
     }
 
     .release-text{
